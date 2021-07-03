@@ -1,0 +1,71 @@
+
+
+footer{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+}
+body {
+    background: url(/images/mainImages.jpg) no-repeat;
+    background-color: #c7b39b;
+    background-size: cover;
+    width: 100%;
+}
+
+h6 {
+    margin-bottom: 100px;
+}
+
+.mycontainer {
+    background: url(/images/mainImages.jpg) no-repeat;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.site-header {
+    background-color: rgba(255, 255, 255, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    font: bold italic 110% serif;
+}
+
+footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 0px; /* Поля вокруг текста */
+    background-color: rgba(255, 255, 255, 0.85); /* Цвет фона */
+    /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(190, 20, 20, 0.5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: rgb(134, 19, 19);
+    border-bottom-color: #fff;
+}
+
